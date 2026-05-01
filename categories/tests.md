@@ -4,4 +4,4 @@ Contributions that added regression coverage, improved existing tests, clarified
 
 | Project | Contribution | Status | Impact | Links |
 | --- | --- | --- | --- | --- |
-| Coming soon | Add test contribution summary | Draft | Add impact | PR / Issue |
+| Firefox | Added browser regression coverage for Firefox Translations source-language switching behavior | Merged | Covered the case where changing the source language auto-selects the preferred target language | [Writeup](../contributions/firefox-translations-default-target-language.md) / [Bug](https://bugzilla.mozilla.org/show_bug.cgi?id=2031015) / [Commit](https://github.com/mozilla-firefox/firefox/commit/242c60757e03) |

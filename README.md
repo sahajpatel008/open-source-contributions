@@ -11,7 +11,7 @@ This repo is designed for two audiences:
 
 | Project | Contribution | Type | Impact | Links |
 | --- | --- | --- | --- | --- |
-| Coming soon | Add your strongest contribution here | Bug fix / Feature / Docs | Short impact statement | PR / Issue |
+| Firefox | Suggested the default target language after changing the detected source language in Firefox Translations | Feature / UX / Tests | Reduced a repeated manual step in the full-page translation flow; fixed in Firefox 152 | [Writeup](contributions/firefox-translations-default-target-language.md) / [Bug](https://bugzilla.mozilla.org/show_bug.cgi?id=2031015) / [Commit](https://github.com/mozilla-firefox/firefox/commit/242c60757e03) |
 
 ## Contribution Categories
 
@@ -24,18 +24,17 @@ This repo is designed for two audiences:
 
 ## Featured Contributions
 
-Use this section for the strongest 3-5 contributions. Each entry should be short enough to scan quickly, but specific enough to show engineering judgment.
+### Firefox Translations: Default Target Language After Source Language Change
 
-### Contribution Title
-
-- **Project:** Project name
-- **Repository:** Link to repository
-- **Pull Request:** Link to PR
-- **Issue:** Link to issue, if available
-- **Type:** Bug fix / Feature / Documentation / Tests / Performance / Tooling
-- **Tech Stack:** Languages, frameworks, tools
-- **Summary:** One or two sentences explaining what changed.
-- **Impact:** One sentence explaining why the contribution mattered.
+- **Project:** Firefox
+- **Repository:** [mozilla-firefox/firefox](https://github.com/mozilla-firefox/firefox)
+- **Bug:** [Bug 2031015](https://bugzilla.mozilla.org/show_bug.cgi?id=2031015)
+- **Commit:** [242c60757e03](https://github.com/mozilla-firefox/firefox/commit/242c60757e03)
+- **Status:** Merged / RESOLVED FIXED
+- **Type:** Feature / UX improvement / Browser test
+- **Tech Stack:** JavaScript, Firefox browser UI, Mozilla browser tests
+- **Summary:** Improved the full-page Firefox Translations panel so that when a user changes the detected source language and the target language is still unset, Firefox attempts to choose the user's preferred supported target language.
+- **Impact:** Saves users from repeatedly selecting the same target language manually and landed in the Firefox 152 branch.
 
 ## Full Contribution Log
 
